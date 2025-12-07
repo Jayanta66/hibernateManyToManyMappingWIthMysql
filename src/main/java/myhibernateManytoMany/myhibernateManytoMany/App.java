@@ -71,6 +71,8 @@ System.out.println( "Project Started ...." );
     	s.persist(p2);
     	
 		
+		tx.commit();
+
 		s.close();
 		
 		
